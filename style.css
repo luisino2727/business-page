@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 375px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(216, 2, 2, 0.726);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  color: aliceblue;
+}
+
+.page {
+  width: 80%;
+  background-color: rgb(8, 129, 8);
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+h1 {
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
